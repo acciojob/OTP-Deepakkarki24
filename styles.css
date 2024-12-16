@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.otp_container {
+    border: 3px solid #000;
+    width: 70%;
+    display: block;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#verification_heading {
+    margin: 20px 0 10px 0;
+}
+
+#verification_subtext {
+    margin-bottom: 50px;
+}
+
+.code {
+    width: 100px;
+    height: 100px;
+    text-indent: 35px;
+    font-size: 60px;
+}
